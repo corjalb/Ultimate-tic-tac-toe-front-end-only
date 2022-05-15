@@ -1,0 +1,43 @@
+.cell {
+  float: left;
+  height: 32%;
+  width: 32%;
+}
+.sub-board.center {
+    border-left: 2px solid #555555;
+    border-right: 2px solid #555555;
+  }
+.sub-board.middle {
+    border-top: 2px solid #555555;
+    border-bottom: 2px solid #555555;
+  }
+.square.center {
+  border-left: 1px solid #555555;
+  border-right: 1px solid #555555;
+}
+.square.middle {
+  border-top: 1px solid #555555;
+  border-bottom: 1px solid #555555;
+}
+
+.game {
+  width: 500px;
+  height: 500px;
+}
+
+.player1 {
+  color: white;
+  background-color: red;
+}
+.player2 {
+  color: white;
+  background-color: blue;
+}
+
+.active {
+  background-color: yellow;
+}
+
+.hidden {
+  display: none;
+}
